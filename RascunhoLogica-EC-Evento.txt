@@ -1,0 +1,31 @@
+Inicio
+var: DataHoje, DataEvento, ContPart (conta participanete)
+informar data atual:
+informar data do evento:
+
+Verificar se data do evento é posterior a data atual
+	Sim: permir o evento
+	Não: alertar que evento não será permitido por data inválida.
+
+Verificar idade do participanete, tem que ser maior que 18 anos.
+	Sim: permite o cadastro
+	Não: Aletar que o cadastro não é permitido pela idade
+
+Listar participantes e palestrantes por evento (fazer por meio de vetor)
+
+Verificar limite de participantes. Limitar até 100.
+	<= 100 permitir o cadastrado
+	Se não, aletar que o cadastro não será permitido.
+
+Criar fluxograma
+
+
+
+se (DataEvento>DataHoje, permitir, senão: data invalida)
+enquanto <= 100, permitir cadastro de participante
+
+participanete maior de 18 anos pode participar, menor não.
+Quantidade de participantes inferior a 100.
+
+tenho que guardar em uma estrutura de dados do tipo vetor
+ 
